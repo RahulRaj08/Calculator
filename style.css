@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Dancing+Script:wght@700&family=Manrope&family=Montserrat:wght@200;400;600&family=Nunito+Sans:wght@200&family=Playfair+Display&family=Poppins:wght@400;600&family=Tangerine&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calc_screen{
+    /* background-color: brown; */
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+
+.calc_screen input{
+    width: 85%;
+    height: 7vh;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 7px #625d5d, inset -5px -5px 7px #565656;
+    border: none;
+    background-color: rgb(30,43,46);
+    color: #ffffff;
+    padding-inline: 15px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.calc_body{
+    background-color: rgb(35, 33, 35);
+    /* background-color: #ffffff; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.elements{
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 30px;
+    /* box-shadow: 5px 5px 7px #acabab, -5px -5px 7px #aaaaaa; */
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.row button{
+    width: 55px;
+    height: 55px;
+    margin-inline: 8px;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow:  5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+    background: #e0e0e0;
+    border: none;
+}
+
+
+
+button:hover{
+    background-color: rgb(30,43,46);
+    color: white;
+}
+
+
+@media(max-width:500px){
+    .row button{
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
